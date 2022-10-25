@@ -1,5 +1,7 @@
-python==3.7
-fastai==1.0.52
-torch==1.5.1+cpu
-flask
+fastai==2.7.9
+torch==1.12.1
+flask==2.2.2
+torchvision==0.13.1
+numpy==1.21.6
+
 
