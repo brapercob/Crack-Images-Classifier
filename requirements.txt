@@ -3,5 +3,6 @@ torch==1.12.1
 flask==2.2.2
 torchvision==0.13.1
 numpy==1.21.6
+fastbook==0.0.28
 
 
