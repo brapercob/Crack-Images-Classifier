@@ -11,8 +11,9 @@ from PIL import Image
 from fastai.vision.core import PILImage
 import pathlib
 from torchvision import transforms
-temp = pathlib.PosixPath
-pathlib.PosixPath = pathlib.WindowsPath
+
+plt = platform.system()
+if plt == 'Windows': pathlib.PosixPath = pathlib.WindowsPath
 
 # setting working dir
 cwd = os.getcwd()
